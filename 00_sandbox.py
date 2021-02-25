@@ -1,8 +1,7 @@
-# Count DOWN from one to 10...
+import random
 
-options = ["unicorn", "horse", "zebra", "donkey"]
-
-for letter in options:
-    print(letter)
+for item in range(0, 20):
+    number = random.randint(1, 4)
+    print(number, end="\t")
 
 
