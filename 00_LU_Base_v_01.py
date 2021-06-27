@@ -76,7 +76,7 @@ print()
 # Ask user how much the want to play with
 
 how_much = num_check("How much would you "
-                     "like to play with? ", 0, 10)
+                     "like to play with? ", 0, 100)
 
 balance = how_much
 
@@ -96,7 +96,7 @@ while play_again == "":
     # Adjust balance
     # If the random # is between 1 and 5,
     # user gets a unicorn (add $4 to balance)
-    if 1 <= chosen_num <= 5:
+    if 1 <= chosen_num <= 7:
         chosen = "unicorn"
         prize_decoration = "!"
         balance += 4
